@@ -1,0 +1,71 @@
+/* p{
+    color:brown;
+    background-color: aqua;
+    text-align: center;
+}
+
+.p{
+    color: aqua;
+    background-color: black;
+}
+
+#ac{
+    font-size: 25px;
+    
+} */
+/* 
+div{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 7px;
+    display: inline-block;
+}
+
+#du{
+    
+    padding: 50px;
+    border: 100px saddlebrown;
+    background-color: rgb(0, 255, 55);
+    margin: 50px;
+}
+#dc{
+   border: 100px dashed wheat;
+   background-color: blueviolet;
+   margin: 100px;
+}
+
+#marvels{
+    background-color: yellowgreen;
+    padding: 80px;
+    border: 40px dotted rgb(255, 0, 179);
+} */
+
+
+div{
+     align-items: center;
+    border: 10px solid black;
+    padding: 10px;
+    height: 100px;
+    width: 900px;
+}
+
+h2{
+    text-align: center;
+    color: blueviolet;
+}
+p{
+    color: brown;
+}
+
+
+
+
+
+
+
+
+
+
