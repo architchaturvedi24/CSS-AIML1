@@ -42,7 +42,7 @@ div{
     padding: 80px;
     border: 40px dotted rgb(255, 0, 179);
 } */
-
+/* 
 
 div{
      align-items: center;
@@ -58,7 +58,53 @@ h2{
 }
 p{
     color: brown;
+} */
+
+
+/* div{
+    border: solid 2px black;
+    height: 300px;
+    width: 800px;
 }
+h1{
+    background-color: aquamarine;
+}
+p{
+    background-color: greenyellow;
+} */
+/* 
+div{
+    border: solid 3px black;
+    height: 500px;
+    width: 1275px;
+
+}
+
+#dc{
+    text-align: center;
+    background-color: yellow;
+}
+#dd{
+    text-align: center;
+    background-color: purple;
+
+}
+#du{
+    text-align: center;
+    background-color: aqua;
+} */
+
+div{
+    border: solid 3px black;
+    height: 500px;
+    width: 875px;
+}
+
+
+
+
+
+
 
 
 
