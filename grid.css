@@ -1,0 +1,64 @@
+.container{
+    height: 800px;
+    width: 1000px;
+    background-color: aqua;
+    border: solid 2px brown;
+    /* padding: 20px 20px 20px 20px; */
+    /* margin: 10px 10px 10px 10px; */
+    display: grid;
+    text-align: center;
+    /* /* grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr); */
+    grid-template-areas: "header header header header" "main main . sidebar" "footer footer footer footer"; 
+    
+    /* gap: 20px 20px; */
+    /* justify-items: center;
+    align-items: center;  */
+    justify-content: space-around;
+    align-content: space-evenly;
+    /* grid grid-auto-columns: ;
+    grid-auto-flow: ;
+    grid-auto-rows: ; */
+    /* justify-self: parent me nhi hota ye child property h.yaha nhi lagega . ; */
+    /* align-self: ye bhi same child property h. ; */
+/*      
+     sizing functions = iski bhi different properties h.  */
+
+}
+
+.item1{
+    border: solid black 2px;
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+        padding: 20px 20px 20px 20px;
+        /* grid-area: header; */
+}
+
+.item2{
+    border: solid black 2px;
+    background-color: brown;
+     height: 100px;
+    width: 100px; 
+        padding: 20px 20px 20px 20px;
+        /* grid-area: main; */
+
+}
+
+.item3{
+    border: solid black 2px;
+    background-color: brown;
+     height: 100px;
+    width: 100px; 
+      padding: 20px 20px 20px 20px;
+      /* grid-area: sidebar; */
+}
+
+.item4{
+    border: solid black 2px;
+    background-color: brown;
+     height: 100px;
+    width: 100px; 
+      padding: 20px 20px 20px 20px;
+      /* grid-area: footer; */
+}

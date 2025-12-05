@@ -1,0 +1,43 @@
+/* div{
+    background-color: aliceblue;
+    border: solid black 2px;
+    height: 700px;
+    width: 300px;
+      margin: 500px 500px 500px 500px ;
+}
+
+h1{
+       height: 100px;
+       width: 100px;
+       border-radius: 50%;
+       padding: 30px 30px 30px 30px ;
+       margin: 70px 70px 70px 70px ;
+}
+
+.a{
+    background-color: red;
+}
+.b{
+    background-color: yellow;
+}
+
+.c{
+    background-color: green;
+} */
+
+
+#navbar{
+    height: 60px;
+    width: auto;
+    background: color #0f1111; ;
+    border: white 2px;
+}
+
+#logo{
+    text-decoration: orange;
+}
+
+a{
+    text-decoration: aliceblue;
+    padding: 200px;
+}
