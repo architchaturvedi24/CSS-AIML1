@@ -26,18 +26,32 @@ h1{
 } */
 
 
+
+/* Amazon test: */
+
+*{
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+}
+
 #navbar{
     height: 60px;
-    width: auto;
-    background: color #0f1111; ;
-    border: white 2px;
+    background-color: #0f1111;
+}
+
+button{
+    background-color: #f08804;
 }
 
 #logo{
-    text-decoration: orange;
+    color: #f08804;
+    font-size: 20px;
 }
 
 a{
-    text-decoration: aliceblue;
-    padding: 200px;
+    margin-right: 200px;
 }
+
+
+
