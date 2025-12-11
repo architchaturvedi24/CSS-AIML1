@@ -32,9 +32,18 @@ a{
     color: #0f1111;
     border: #0f1111 solid 2px;
     display: inline-block;
+    height: 300px;
+    width: 300px;
 } 
 
 .f{
-    color: #0f1111;
+    color: #0d8484;
+    background-color: #0f1111;
+    text-align: center;
 }
 
+#content{
+    height: 700px;
+    width: auto;
+    text-align: center;
+}
