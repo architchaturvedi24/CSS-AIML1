@@ -1,0 +1,71 @@
+.box{
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+}
+
+@media(min-width:768){
+    .box{
+        background-color: blue;
+    }
+}
+
+@media(min-width:1024px){
+    .box{
+        background-color: brown;
+
+
+    }
+}
+
+@media(min-width:768px){
+    .box{
+        background-color: red;
+    }
+}
+
+nav{
+    background-color: blueviolet;
+    display: flex;
+    color: antiquewhite;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1fr;
+}
+
+.logo{
+    font-size: 1.5rem;
+    color: aqua;
+}
+
+menu{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    top: 6px;
+    right: 20px;
+    width: 20px;
+}
+
+.menu a{
+    color: antiquewhite;
+    padding: 20px;
+    text-decoration:none ;
+    display: block;
+}
+
+.hamburger{
+    font-size: medium;
+    color: blue;
+    cursor: pointer;
+}
+
+@media(min-width:768){
+    .menu{
+        display: flex;
+        background-color: aquamarine;
+        text-decoration: dashed;
+        position: static;
+        
+    }
+}

@@ -1,0 +1,40 @@
+.ab{
+    height: 100px;
+    width: 100px;
+    
+}
+
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+}
+
+button{
+    background-color: #f08804;
+}
+
+#logo{
+    color: #f08804;
+    font-size: 20px;
+}
+
+a{
+    margin-right: 200px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+}
+
+.ab{
+    color: #0f1111;
+    border: #0f1111 solid 2px;
+    display: inline-block;
+} 
+
+.f{
+    color: #0f1111;
+}
+
