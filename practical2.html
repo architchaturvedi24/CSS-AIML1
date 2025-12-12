@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Navbar 2</title>
+    <link rel="stylesheet" href="./practical2.css">
+</head>
+<body>
+  
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">ShopKart</div>
+
+            <!-- Search bar -->
+            <div class="search-box">
+                <input type="text" placeholder="Search for products...">
+                <button>Search</button>
+            </div>
+
+            <!-- Navigation -->
+            <ul class="nav-links" id="menuList">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+
+            <!-- Hamburger -->
+            <div class="menu-icon" id="menuIcon">
+                ☰
+            </div>
+        </nav>
+    </header>
+
+    <script>
+        // Toggle menu
+        document.getElementById("menuIcon").onclick = function () {
+            document.getElementById("menuList").classList.toggle("active");
+        };
+    </script>
+      
+      
+
+
+   
+ <h1> WELCOME TO SHOP KART !</h1>
+</body>
+</html>
